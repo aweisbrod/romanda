@@ -1,0 +1,425 @@
+body, html {
+    height: 100%;
+  }
+
+
+/* nav bar */
+
+
+/* media queries */
+
+
+/* xx-small devices (less than 300px) */
+@media only screen and (max-width: 300px) {
+
+  p {
+    font-size: calc(0.5rem + 1.5vw);
+  }
+  
+  .names {
+    font-size: calc(2.5rem + 1.5vw);
+    line-height: calc(2.25rem + 1.5vw);
+    padding-top: 4rem;
+
+}
+
+
+  #weddingDay, #location, #address, .thankYou {
+    font-size: calc(.75rem + 1.5vw);
+    line-height: calc(1.5rem + 1.5vw);
+  
+  }
+
+  .dateline {
+    line-height: calc(1.5rem + 1.5vw);
+  }
+
+
+  .location {
+    line-height: calc(1.5rem + 1.5vw);
+  }
+
+
+
+  .sectionHed {
+    font-size: calc(1.5rem + 1.5vw);
+    line-height: calc(1.25rem + 1.5vw);
+    padding-top: 4rem;
+
+}
+
+
+
+  .blackBkgd {
+    margin: 60px 20px;
+    padding: 1rem;
+  
+  }
+  
+}
+
+/* Extra small devices (301-599px) */
+@media only screen and (min-width: 301px) {
+  p {
+    font-size: calc(0.5rem + 1.5vw);
+  }
+  
+  .names {
+    font-size: calc(3rem + 1.5vw);
+    line-height: calc(3.5rem + 1.5vw);
+
+}
+
+  #intro {
+  padding-top: calc(3rem + 6vw);
+}
+
+  #weddingDay, #location, #info {
+    font-size: calc(.75rem + 1.5vw);
+    
+  }
+
+  .thankYou {
+    font-size: calc(.75rem + 1.5vw);
+    margin: calc(1rem + 1.5vw);
+    line-height: calc(1.5rem + 1.5vw);
+  }
+
+  .venueName, #address {
+    font-size: calc(.75rem + 1.5vw);
+  }
+
+
+  .sectionHed {
+    font-size: calc(1.5rem + 1.5vw);
+    line-height: calc(1.25rem + 1.5vw);
+    padding-top: 4rem;
+
+}
+
+  .blackBkgd {
+    margin: 60px 60px;
+    padding: calc(2rem + 1.5vw);
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  p {
+    font-size: calc(0.3rem + 1.5vw);
+  }
+  
+  .names {
+    font-size: calc(3rem + 1.5vw);
+    /* padding-top: 8rem; */
+
+}
+
+#weddingDay, #location, #info {
+  font-size: calc(.75rem + 1.5vw);
+  
+}
+
+
+
+.sectionHed {
+  font-size: calc(2rem + 1.5vw);
+  padding-top: 8rem;
+
+}
+
+.blackBkgd {
+  margin: 80px 80px;
+  padding: calc(3rem + 1.5vw);
+}
+
+.column {
+  width: 100%;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .names {
+    font-size: calc(4rem + 1.5vw);
+}
+
+#weddingDay, #location, #info {
+  font-size: calc(.75rem + 1vw);
+  
+}
+
+#rsvp-form {
+  padding-top: calc(2rem + 1vw);
+}
+
+.thankYou {
+  font-size: calc(.5rem + 1.5vw);
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.sectionHed {
+  font-size: calc(4rem + 1.5vw);
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .names {
+    font-size: calc(4rem + 1.5vw);
+}
+
+#weddingDay, #location, #info {
+  font-size: calc(.5rem + 1.5vw);
+  
+}
+
+.thankYou {
+  font-size: calc(.5rem + 1vw);
+
+}
+
+.venueName, #address {
+  font-size: calc(.5rem + 1vw);
+}
+
+.sectionHed {
+  font-size: calc(4rem + 1.5vw);
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .names {
+    font-size: calc(4.5rem + 1.5vw);
+}
+
+#weddingDay, #location, #info {
+  font-size: calc(.2rem + 1.5vw);
+  
+}
+
+.sectionHed {
+  font-size: calc(4.5rem + 1.5vw);
+}
+}
+
+
+
+
+
+/* text styles */
+caption {
+  font-family: 'Playfair Display';
+  font-size: xx-small;
+  font-style: italic;
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 200;
+}
+
+
+.glow {
+    text-shadow: 2px 2px 6px white;
+}
+
+.shadow {
+    text-shadow: 2px 2px 6px black;
+}
+
+
+#intro {
+  color: black;
+  font-family: 'Playfair Display'; 
+  font-style: italic;
+}
+
+.names {
+    font-family: 'Playfair Display';
+    text-align: center;
+    margin: 0px 60px;
+
+}
+
+
+#weddingDay {
+  font-family: 'Poppins';
+  font-weight: 100;
+  text-align: center;
+  padding-top: 8.5rem;
+  margin: 0px 40px;
+}
+
+
+.dateline {
+    font-family: 'Playfair Display SC';
+    font-size: calc(1.5rem + 1.5vw);
+    text-align: center;
+    margin: 0px 40px;
+}
+
+#location {
+  font-family: 'Poppins';
+  font-weight: 100;
+  text-align: center;
+  margin: 0px 40px;
+}
+
+
+.location {
+    font-family: 'Playfair Display SC';
+    text-align: center;
+    padding-bottom: 8.5rem;
+    margin: 0px 40px;
+}
+
+.whiteBkgd {
+  background-color: white;
+  padding: 1rem 1rem 100% 1rem;
+  margin: 60px;
+}
+
+.blackBkgd {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  margin: 0;    
+}
+
+
+.sectionHed {
+  color: white;
+  text-shadow: 2px 2px 6px black;
+  font-family: 'Playfair Display';
+  text-align: center;
+  margin:auto;
+
+}
+
+.venueName {
+  color: white;
+  text-shadow: 2px 2px 6px black;
+  text-align: center; 
+  font-family: 'Playfair Display'; 
+  font-style: italic;
+  padding-top: 15px;
+  
+}
+
+.thankYou {
+  color: white;
+  text-align: center; 
+  font-family: 'Playfair Display'; 
+  font-style: italic;
+  font-weight: 100;
+}
+
+#top-space {
+  padding-top: calc(3rem + 6vw);
+}
+
+#info {
+  color: black;
+  font-family: 'Playfair Display'; 
+  font-style: italic;
+  padding-top: 30px;
+}
+
+
+#address {
+  font-family: 'Playfair';
+  font-style: italic;
+  text-shadow: 2px 2px 6px black;
+  padding-top: 500px;
+}
+
+.footer {
+  margin: 20px;
+  padding: 20px;
+}
+
+.footer-text {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+
+}
+
+/* horizontal rule style */
+hr {
+    width: 50%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+
+}
+
+  /* parallax code */
+
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+    /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-width: 769px) {
+    .bg01, .bg02 {
+      background-attachment: scroll;
+    }
+  }
+
+
+
+/* imgs */
+  .leadImg {
+    background-image: url(/Volumes/RFA_GFX/websites/wedding03/imgs/R+A-27.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+  }
+
+.border {
+  background-image: url(/Volumes/RFA_GFX/websites/wedding03/imgs/white-pattern-grid.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+  .venueImg {
+    background-image: url("https://pinecroftmansion.com/wp-content/uploads/2018/06/Pinecroft-Mansion-at-Crosley-Estate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+  }
+
+  .ourStoryImg {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 2rem;
+
+  }
+
+ 
+  /* btn style */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
