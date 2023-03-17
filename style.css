@@ -3,7 +3,219 @@ body, html {
 }
 
 
-/* nav bar */
+/* text styles */
+a:link, a:visited {
+  color:white;
+}
+
+a:hover {
+  color:black;
+}
+
+caption {
+font-family: 'Playfair Display';
+font-size: xx-small;
+font-style: italic;
+color: white;
+}
+
+p {
+color: white;
+font-family: 'Poppins';
+font-weight: 200;
+}
+
+
+.glow {
+  text-shadow: 2px 2px 6px white;
+}
+
+.shadow {
+  text-shadow: 2px 2px 6px black;
+}
+
+
+#intro {
+color: white;
+font-family: 'Playfair Display'; 
+font-style: italic;
+}
+
+.names {
+  color: white;
+  font-family: 'Playfair Display';
+  text-align: center;
+
+}
+
+
+#weddingDay {
+font-family: 'Poppins';
+font-weight: 100;
+text-align: center;
+padding-top: 8.5rem;
+margin: 0px 40px;
+}
+
+
+.dateline {
+  font-family: 'Playfair Display SC';
+  font-size: calc(1.5rem + 1.5vw);
+  text-align: center;
+  margin: 0px 40px;
+}
+
+#location {
+font-family: 'Poppins';
+font-weight: 100;
+text-align: center;
+margin: 0px 40px;
+}
+
+
+.location {
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  padding-bottom: 8.5rem;
+  margin: 0px 40px;
+}
+
+.whiteBkgd {
+background-color: white;
+padding: 1rem 1rem 100% 1rem;
+margin: 60px;
+}
+
+.blackBkgd {
+background-color: black;
+background-position: center;
+background-size: cover;
+margin: 0;    
+}
+
+
+.sectionHed {
+color: white;
+text-shadow: 2px 2px 6px black;
+font-family: 'Playfair Display';
+text-align: center;
+margin:auto;
+
+}
+
+.venueName {
+color: white;
+text-shadow: 2px 2px 6px black;
+text-align: center; 
+font-family: 'Playfair Display'; 
+font-style: italic;
+padding-top: 15px;
+
+}
+
+.thankYou {
+color: white;
+text-align: center; 
+font-family: 'Playfair Display'; 
+font-style: italic;
+font-weight: 100;
+}
+
+#top-space {
+padding-top: calc(3rem + 6vw);
+}
+
+#info {
+color: black;
+font-family: 'Playfair Display'; 
+font-style: italic;
+padding-top: 30px;
+}
+
+
+#address {
+font-family: 'Playfair';
+font-style: italic;
+text-shadow: 2px 2px 6px black;
+padding-top: 500px;
+}
+
+.footer {
+margin: 20px;
+padding: 20px;
+}
+
+.footer-text {
+color: black;
+font-family: 'Poppins', sans-serif;
+font-size: small;
+
+}
+
+/* horizontal rule style */
+hr {
+  width: 50%;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+
+}
+
+/* parallax code */
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-width: 769px) {
+  .bg01, .bg02 {
+    background-attachment: scroll;
+  }
+}
+
+
+
+/* imgs */
+.leadImg {
+  background-image: url("RA-115-2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+
+
+.venueImg {
+  background-image: url("pinecroft-sepia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+
+.ourStoryImg {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 2rem;
+
+}
+
+
+/* btn style */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 /* media queries */
@@ -222,219 +434,3 @@ font-size: calc(4.5rem + 1.5vw);
 }
 }
 
-
-
-
-
-/* text styles */
-a:link, a:visited {
-  color:white;
-}
-
-a:hover {
-  color:black;
-}
-
-caption {
-font-family: 'Playfair Display';
-font-size: xx-small;
-font-style: italic;
-color: white;
-}
-
-p {
-color: white;
-font-family: 'Poppins';
-font-weight: 200;
-}
-
-
-.glow {
-  text-shadow: 2px 2px 6px white;
-}
-
-.shadow {
-  text-shadow: 2px 2px 6px black;
-}
-
-
-#intro {
-color: white;
-font-family: 'Playfair Display'; 
-font-style: italic;
-}
-
-.names {
-  color: white;
-  font-family: 'Playfair Display';
-  text-align: center;
-
-}
-
-
-#weddingDay {
-font-family: 'Poppins';
-font-weight: 100;
-text-align: center;
-padding-top: 8.5rem;
-margin: 0px 40px;
-}
-
-
-.dateline {
-  font-family: 'Playfair Display SC';
-  font-size: calc(1.5rem + 1.5vw);
-  text-align: center;
-  margin: 0px 40px;
-}
-
-#location {
-font-family: 'Poppins';
-font-weight: 100;
-text-align: center;
-margin: 0px 40px;
-}
-
-
-.location {
-  font-family: 'Playfair Display SC';
-  text-align: center;
-  padding-bottom: 8.5rem;
-  margin: 0px 40px;
-}
-
-.whiteBkgd {
-background-color: white;
-padding: 1rem 1rem 100% 1rem;
-margin: 60px;
-}
-
-.blackBkgd {
-background-color: black;
-background-position: center;
-background-size: cover;
-margin: 0;    
-}
-
-
-.sectionHed {
-color: white;
-text-shadow: 2px 2px 6px black;
-font-family: 'Playfair Display';
-text-align: center;
-margin:auto;
-
-}
-
-.venueName {
-color: white;
-text-shadow: 2px 2px 6px black;
-text-align: center; 
-font-family: 'Playfair Display'; 
-font-style: italic;
-padding-top: 15px;
-
-}
-
-.thankYou {
-color: white;
-text-align: center; 
-font-family: 'Playfair Display'; 
-font-style: italic;
-font-weight: 100;
-}
-
-#top-space {
-padding-top: calc(3rem + 6vw);
-}
-
-#info {
-color: black;
-font-family: 'Playfair Display'; 
-font-style: italic;
-padding-top: 30px;
-}
-
-
-#address {
-font-family: 'Playfair';
-font-style: italic;
-text-shadow: 2px 2px 6px black;
-padding-top: 500px;
-}
-
-.footer {
-margin: 20px;
-padding: 20px;
-}
-
-.footer-text {
-color: black;
-font-family: 'Poppins', sans-serif;
-font-size: small;
-
-}
-
-/* horizontal rule style */
-hr {
-  width: 50%;
-  margin-left: 25% !important;
-  margin-right: 25% !important;
-
-}
-
-/* parallax code */
-
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-width: 769px) {
-  .bg01, .bg02 {
-    background-attachment: scroll;
-  }
-}
-
-
-
-/* imgs */
-.leadImg {
-  background-image: url("RA-115-2.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  height: 100%;
-}
-
-
-.venueImg {
-  background-image: url("pinecroft-sepia.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  height: 100%;
-}
-
-.ourStoryImg {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  padding-top: 2rem;
-
-}
-
-
-/* btn style */
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
