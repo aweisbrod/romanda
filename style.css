@@ -193,7 +193,7 @@ hr {
 
 /* imgs */
 .leadImg {
-  background-image: url(/Volumes/RFA_GFX/websites/wedding04/imgs/RA-26.jpg);
+  background-image: url(RA-26.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -209,7 +209,7 @@ text-align: center;
 }
 
 .venueImg {
-  background-image: url(/Volumes/RFA_GFX/websites/wedding04/imgs/pinecroft-sepia.png);
+  background-image: url(pinecroft-sepia.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
