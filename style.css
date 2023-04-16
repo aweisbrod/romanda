@@ -340,7 +340,7 @@ footer {
   }
 
   .text-bottom {
-    top: calc(1rem + 3vw);
+    top: calc(1rem + 2vw);
   }
   
   #intro {
